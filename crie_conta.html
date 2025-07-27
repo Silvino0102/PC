@@ -1,4 +1,3 @@
-
 <html>
 <!DOCTYPE html>
 <html lang="pt">
@@ -7,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Criar Conta - PrivateClub</title>
   <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="signup.js"></script>
 </head>
 <body>
   <div class="container">
     <h1>Criar Conta</h1>
-    <form action="#" method="post">
+    <form id="signupForm">
       <label for="username">Nome de Usuário:</label>
       <input type="text" id="username" name="username" required />
 
@@ -23,8 +23,8 @@
 
       <button type="submit">Criar Conta</button>
     </form>
+    <p id="status"></p>
     <p>Já tem uma conta? <a href="login.html">Entrar</a></p>
   </div>
 </body>
 </html>
-

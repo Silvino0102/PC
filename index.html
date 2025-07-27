@@ -7,24 +7,67 @@
   <meta name="6a97888e-site-verification" content="161fa11a6a0e11fefcb2608482454c49">
   <title>PrivateClub 🔞</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background-color: #1f1f1f;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+    button {
+      background-color: #f72585;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 15px 0;
+    }
+    button:hover {
+      background-color: #c9184a;
+    }
+    #menu a {
+      display: block;
+      margin: 10px 0;
+      color: #90e0ef;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    #menu a:hover {
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1>Bem-vindo ao PrivateClub 🔞</h1>
-    <p>Este site contém conteúdo exclusivo para maiores de 18 anos.</p>
+    <h1>Bem-vindo ao PrivateClub 🔞</h1>
+<p>Este site contém conteúdo exclusivo para maiores de 18 anos.</p>
     <button onclick="liberarAcesso()">Sou maior de 18 anos</button>
     <div id="menu" style="display: none;">
       <a href="videos.html">🎥 Vídeos</a>
       <a href="imagens.html">🖼 Imagens</a>
       <a href="blog.html">📝 Blog</a>
       <a href="login.html">🔐 Login</a>
-      <a href="crie_conta.html">🆕 Crie sua conta</a>
+      <a href="crie_conta.html">🆕 Criar Conta</a>
       <a href="doações.html" target="_blank">💰 Doar</a>
-      <a href=""></a>
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    function liberarAcesso() {
+      document.getElementById("menu").style.display = "block";
+    }
+  </script>
 </body>
 </html>
+
 
